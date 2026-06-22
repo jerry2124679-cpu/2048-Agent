@@ -1,0 +1,2 @@
+# No third-party Python packages are required.
+# Tkinter is required for GUI scripts and is bundled with most Python installs.

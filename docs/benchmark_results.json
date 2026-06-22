@@ -1,0 +1,245 @@
+{
+  "config": {
+    "collection": "five_random_live_agent_runs",
+    "target_samples": 5,
+    "live_settings": {
+      "depth": 5,
+      "black_depth": 5,
+      "chance_limit": 6
+    }
+  },
+  "summary": {
+    "count": 5,
+    "score": {
+      "min": 132420,
+      "max": 176848,
+      "mean": 156758.4,
+      "median": 168064
+    },
+    "max_tile": {
+      "8192": 5
+    },
+    "score_distribution": {
+      "120000-139999": 2,
+      "160000-179999": 3
+    },
+    "best_sample": {
+      "source": "live_agent",
+      "seed": 45801859,
+      "score": 176848,
+      "max": 8192,
+      "moves": 7399,
+      "event": "finish",
+      "status": "AI returned illegal move: -1",
+      "board": [
+        [
+          2,
+          8,
+          1024,
+          4
+        ],
+        [
+          4,
+          256,
+          4096,
+          8192
+        ],
+        [
+          32,
+          128,
+          2048,
+          8
+        ],
+        [
+          8,
+          512,
+          2,
+          2
+        ]
+      ],
+      "sample": 1
+    }
+  },
+  "samples": [
+    {
+      "source": "live_agent",
+      "seed": 45801859,
+      "score": 176848,
+      "max": 8192,
+      "moves": 7399,
+      "event": "finish",
+      "status": "AI returned illegal move: -1",
+      "board": [
+        [
+          2,
+          8,
+          1024,
+          4
+        ],
+        [
+          4,
+          256,
+          4096,
+          8192
+        ],
+        [
+          32,
+          128,
+          2048,
+          8
+        ],
+        [
+          8,
+          512,
+          2,
+          2
+        ]
+      ],
+      "sample": 1
+    },
+    {
+      "source": "live_agent",
+      "seed": 675766862,
+      "score": 132420,
+      "max": 8192,
+      "moves": 5528,
+      "event": "finish",
+      "status": "Game over.",
+      "board": [
+        [
+          16,
+          2048,
+          16,
+          2
+        ],
+        [
+          32,
+          256,
+          1024,
+          8192
+        ],
+        [
+          4,
+          64,
+          512,
+          64
+        ],
+        [
+          2,
+          4,
+          16,
+          4
+        ]
+      ],
+      "sample": 2
+    },
+    {
+      "source": "live_agent",
+      "seed": 2113649045,
+      "score": 173516,
+      "max": 8192,
+      "moves": 7238,
+      "event": "finish",
+      "status": "Game over.",
+      "board": [
+        [
+          4,
+          2,
+          4096,
+          8
+        ],
+        [
+          64,
+          1024,
+          256,
+          8192
+        ],
+        [
+          128,
+          2048,
+          64,
+          4
+        ],
+        [
+          4,
+          32,
+          8,
+          2
+        ]
+      ],
+      "sample": 3
+    },
+    {
+      "source": "live_agent",
+      "seed": 1113023302,
+      "score": 132944,
+      "max": 8192,
+      "moves": 5586,
+      "event": "finish",
+      "status": "Game over.",
+      "board": [
+        [
+          8,
+          2,
+          4,
+          2
+        ],
+        [
+          4,
+          32,
+          64,
+          8
+        ],
+        [
+          512,
+          256,
+          128,
+          16
+        ],
+        [
+          8192,
+          2048,
+          1024,
+          8
+        ]
+      ],
+      "sample": 4
+    },
+    {
+      "source": "live_agent",
+      "seed": 1403801325,
+      "score": 168064,
+      "max": 8192,
+      "moves": 6991,
+      "event": "finish",
+      "status": "Game over.",
+      "board": [
+        [
+          2,
+          4096,
+          8,
+          4
+        ],
+        [
+          8192,
+          512,
+          256,
+          2
+        ],
+        [
+          2048,
+          128,
+          2,
+          8
+        ],
+        [
+          8,
+          16,
+          4,
+          32
+        ]
+      ],
+      "sample": 5
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local runtime cache
+2048_cache.json
+_profile.txt
+last_live_replay.jsonl
+
+# Generated experiment traces and reports
+*.jsonl
+*.csv
+*.log
+
+# Heavy models and native build products
+*.dll
+*.so
+*.pyd
+*.pkl
+*.7z
+
+# Frontend/build artifacts
+node_modules/
+dist/
+build/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
